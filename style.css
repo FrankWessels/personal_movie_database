@@ -1,0 +1,128 @@
+body {
+	font-family: "new century schoolbook";
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#wrapper {
+	text-align: center;	
+	font-size:0px;
+}
+#header {
+	position:relative;	
+	height: 75px;
+	width: 700px;
+	display: inline-block;
+	font-weight: bold;
+	font-size:20px;
+}
+#menu {
+	position:relative;	
+	height: 50px;
+	width: 700px;
+	display: inline-block;
+	font-weight: bold;
+	font-size:18px;
+}
+#m1 {
+	position:absolute;
+	top: 5px;
+	left: 30px;
+	height: 40px;
+	width: 100px;
+}
+#m2 {
+	position:absolute;
+	top: 5px;
+	left: 405px;
+	height: 25px;
+	width: 60px;
+	overflow: hidden;		
+}
+#m2:hover {
+	position:absolute;
+	top: 5px;
+	left: 290px;
+	height: 50px;
+	width: 290px;
+}
+#m3 {
+	position:absolute;
+	top: 5px;
+	left: 620px;
+	height: 25px;
+	width: 95px;
+}
+.r {
+	text-align: left;
+	font-size:15px;
+	position:relative;
+	height: 40px;
+	width: 700px;
+	display: inline-block;
+	overflow: hidden;
+}
+.r:hover {
+	font-weight: bold;	
+	height: 200px;
+	width: 700px;
+}
+.play {
+	position:absolute;
+	top: 2px;
+	left: 2px;
+	height: 36px;
+	width: 36px;
+	background-image: url("images/play.png");
+	background-size: 36px 36px;
+}
+.play:hover {
+	background-image: url("images/playh.png");
+}
+.title {
+	position:absolute;
+	top: 11px;
+	left: 50px;
+	height: 40px;
+	width: 345px;
+	overflow: hidden;	
+}
+.genre {
+	position:absolute;
+	top: 11px;
+	left: 400px;
+	height: 40px;
+	width: 250px;
+}
+.score {
+	font-weight: bold;
+	position:absolute;
+	top: 11px;
+	left: 665px;
+	height: 40px;
+	width: 40px;
+}
+.poster {
+	position:absolute;
+	top: 40px;
+	left: 0px;
+	height: 160px;
+	width: 120px;
+	background-size: 120px 160px;	
+}
+.info {
+	border:3px solid #000000;
+	font-weight: normal;	
+	font-size:14px;	
+	position:absolute;
+	top: 40px;
+	left: 120px;
+	height: 155px;
+	width: 575px;
+	background-size: 100px 145px;	
+}
